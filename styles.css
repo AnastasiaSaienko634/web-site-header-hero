@@ -1,0 +1,25 @@
+.container {
+    padding: 0 120px;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    font-family: Arial, sans-serif; /* Задаем шрифт для всех элементов */
+    font-weight: normal;
+}
+
+/* Для ссылок - сброс подчеркивания */
+a {
+    text-decoration: none;
+    color: inherit; /* Ссылки наследуют цвет родителя */
+}
+
+/* Сброс для изображений */
+img {
+    max-width: 100%; /* Чтобы изображения не выходили за пределы контейнера */
+    height: auto;
+}
+
+/* Убираем дефолтные стили у списков */
+ul, ol {
+    list-style: none;
+}
